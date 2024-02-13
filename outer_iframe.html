@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <h2>outer iframe</h1>
+        <iframe src="./inner_iframe" id="inner_iframe" style="display:none"></iframe> 
+        <script>
+            console.log('hello from outer iframe');
+            const sharedStorage = window.sharedStorage;
+        </script>
+    </body>
+
+</html>
